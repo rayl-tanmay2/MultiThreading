@@ -14,4 +14,11 @@
              }
          }
      }
+
+  
+     // Overriding the run method to define thread behavior
+     @Override
+     public void run() {
+         printEvenNumbers();
+     }
  }
