@@ -10,6 +10,12 @@ public class Main {
          EvenThread evenThread = new EvenThread();
          OddThread oddThread = new OddThread();
          CharThread charThread = new CharThread();
+
+      // Starting each thread
+         evenThread.start();
+         oddThread.start();
+         charThread.start();
+     }
  
  }
    
